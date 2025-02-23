@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enhanced Food Delivery</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="images/logo.png">
+</head>
+<body>
+    
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="logo">
+            <img src="images/logo.png" alt="EatOpia Logo" />
+            <span>EatOpia</span> <!-- This is the text beside the logo -->
+        </div>
+        <input type="text" placeholder="Search food or restaurants..." class="search-bar">
+        <div class="nav-buttons">
+            <a href="login.html"><button class="login-btn">Login</button></a>
+            <a href="register.html"><button class="cart-btn">Register</button></a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="hero-content">
+            <h1>Delicious Meals, Delivered to Your Doorstep</h1>
+            <button class="order-btn">Order Now</button>
+        </div>
+    </header>
+
+    <!-- Popular Restaurants -->
+    <section class="restaurants">
+        <h2>Popular Restaurants</h2>
+        <div class="restaurant-grid" id="restaurant-list">
+            <!-- Restaurants will be added dynamically here -->
+        </div>
+    </section>
+
+    <!-- Offers & Discounts -->
+    <section class="offers">
+        <h2>Exclusive Offers</h2>
+        <div class="offer-card">
+            <h3>20% OFF on First Order!</h3>
+            <p>Use code: <strong>FIRST20</strong></p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2025 Eatopia. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
